@@ -1,13 +1,16 @@
 Package: coalagree
 Type: Package
-Title: Corpus of coalition agreements in the federal republic of Germany.
+Title: Corpus of coalition agreements in the federal republic of Germany
 Version: 0.0.1
 Date: 2021-11-27
 Authors@R: c(person("Andreas", "Blaette", role = c("aut", "cre"), email = "andreas.blaette@uni-due.de"),
   person("Christoph", "Leonhardt", role = "ctb", email = "christoph.leonhardt@uni-due.de")
   )
-Description: Make coalition agreements available
-Imports:
+Description: Make coalition agreements available in a package.
+Depends:
+  lifecycle
+Suggests:
+  knitr
 VignetteBuilder: knitr
 License: GPL-3
 Language: en-US
