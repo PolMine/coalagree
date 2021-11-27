@@ -1,0 +1,30 @@
+##
+## registry entry for corpus COALAGREE
+##
+
+# long descriptive name for the corpus
+NAME "COALAGREE"
+# corpus ID (must be lowercase in registry!)
+ID   coalagree
+# path to binary data files
+HOME /Users/andreasblaette/Lab/github/coalagree/inst/extdata/cwb/indexed_corpora/coalagree
+# optional info file (displayed by ",info;" command in CQP)
+INFO /Users/andreasblaette/Lab/github/coalagree/inst/extdata/cwb/indexed_corpora/coalagree/.info
+
+# corpus properties provide additional information about the corpus:
+##:: charset = "utf8"
+#========================================================================#
+
+
+##
+## p-attributes (token annotations)
+##
+
+ATTRIBUTE word
+ATTRIBUTE stem
+
+##
+## s-attributes
+##
+
+STRUCTURE year
